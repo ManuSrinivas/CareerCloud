@@ -3,3 +3,4 @@ C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\Care
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.pdb
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb
+C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
