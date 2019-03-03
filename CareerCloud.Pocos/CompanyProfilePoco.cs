@@ -31,5 +31,11 @@ namespace CareerCloud.Pocos
 
 		[Column("Time_Stamp")]
 		public byte[] TimeStamp { get; set; }
+
+		public virtual ICollection<CompanyDescriptionPoco> CompanyDescription { get; set; }
+
+		public virtual ICollection<CompanyJobPoco> CompanyJob { get; set; }
+
+		public virtual ICollection<CompanyLocationPoco> CompanyLocation { get; set; }
 	}
 }
