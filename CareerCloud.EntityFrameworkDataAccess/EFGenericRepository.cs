@@ -13,9 +13,9 @@ namespace CareerCloud.EntityFrameworkDataAccess
 	{
 		private CareerCloudContext _context;
 
-		public EFGenericRepository()
+		public EFGenericRepository(bool createProxy = true)
 		{
-			_context = new CareerCloudContext();
+			_context = new CareerCloudContext(createProxy);
 		}
 
 		public void Add(params T[] items)
@@ -34,7 +34,12 @@ namespace CareerCloud.EntityFrameworkDataAccess
 
 		public IList<T> GetAll(params Expression<Func<T, object>>[] navigationProperties)
 		{
-			throw new NotImplementedException();
+			IQueryable<T> query = _context.Set<T>();
+			foreach (Expression<Func<T, object>> navprop in navigationProperties)
+			{
+				query = query.Include<T, object>(navprop);
+			}
+			return query.ToList();
 		}
 
 		public IList<T> GetList(Expression<Func<T, bool>> where, params Expression<Func<T, object>>[] navigationProperties)

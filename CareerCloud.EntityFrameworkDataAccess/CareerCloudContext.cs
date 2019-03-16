@@ -11,8 +11,9 @@ namespace CareerCloud.EntityFrameworkDataAccess
 {
 	class CareerCloudContext : DbContext
 	{
-		public CareerCloudContext() : base(ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)
+		public CareerCloudContext(bool createProxy = true) : base(ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)//@"Data Source=LAPTOP-542KT1B3\HUMBERBRIDGING;Initial Catalog=JOB_PORTAL_DB;Integrated Security=True")//ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)
 		{
+			Configuration.ProxyCreationEnabled = createProxy;
 		}
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)

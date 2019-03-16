@@ -65,7 +65,7 @@ namespace CareerCloud.BusinessLogicLayer
 				{
 					exceptions.Add(new ValidationException(600, $"Valid websites must end with the following extentions - .ca, .com, .biz"));
 				}
-				else if (!Regex.IsMatch(poco.CompanyWebsite, @".*\.[ca][com][biz]", RegexOptions.IgnoreCase))
+				else if (!Regex.IsMatch(poco.CompanyWebsite, @".*\.(ca|com|biz)", RegexOptions.IgnoreCase))
 				{
 					exceptions.Add(new ValidationException(600, $"Valid websites must end with the following extentions - .ca, .com, .biz"));
 				}
