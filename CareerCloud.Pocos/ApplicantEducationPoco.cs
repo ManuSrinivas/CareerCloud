@@ -13,6 +13,7 @@ namespace CareerCloud.Pocos
 	[Table("Applicant_Educations")]
 	public class ApplicantEducationPoco : IPoco
 	{
+
 		[Key]
 		[DataMember]
 		public Guid Id { get; set; }
@@ -28,10 +29,12 @@ namespace CareerCloud.Pocos
 		public string CertificateDiploma { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Start_Date")]
 		public DateTime? StartDate { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Completion_Date")]
 		public DateTime? CompletionDate { get; set; }
 

@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.WebAPI", "Caree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.UnitTests.Assignment6", "CareerCloud.UnitTests.Assignment6\CareerCloud.UnitTests.Assignment6.csproj", "{878AFB57-B469-4CC7-A714-0E447A4DA8E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloudUI", "CareerCloudUI\CareerCloudUI.csproj", "{5F055AE7-F2B4-423E-BEF5-615E1705CF7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{878AFB57-B469-4CC7-A714-0E447A4DA8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878AFB57-B469-4CC7-A714-0E447A4DA8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878AFB57-B469-4CC7-A714-0E447A4DA8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F055AE7-F2B4-423E-BEF5-615E1705CF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F055AE7-F2B4-423E-BEF5-615E1705CF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F055AE7-F2B4-423E-BEF5-615E1705CF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F055AE7-F2B4-423E-BEF5-615E1705CF7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,6 +21,7 @@ namespace CareerCloud.Pocos
 		public Guid Company { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Profile_Created")]
 		public DateTime ProfileCreated { get; set; }
 

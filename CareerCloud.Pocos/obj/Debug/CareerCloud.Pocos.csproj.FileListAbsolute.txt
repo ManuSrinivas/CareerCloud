@@ -1,6 +1,6 @@
-C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.pdb
+C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
+C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
 C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb
-C:\Users\Manu Srinivas\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache

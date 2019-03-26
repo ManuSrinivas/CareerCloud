@@ -9,11 +9,16 @@ using CareerCloud.Pocos;
 
 namespace CareerCloud.EntityFrameworkDataAccess
 {
-	class CareerCloudContext : DbContext
+	public class CareerCloudContext : DbContext
 	{
 		public CareerCloudContext(bool createProxy = true) : base(ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)//@"Data Source=LAPTOP-542KT1B3\HUMBERBRIDGING;Initial Catalog=JOB_PORTAL_DB;Integrated Security=True")//ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)
 		{
 			Configuration.ProxyCreationEnabled = createProxy;
+		}
+
+		public CareerCloudContext() : base(ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)//@"Data Source=LAPTOP-542KT1B3\HUMBERBRIDGING;Initial Catalog=JOB_PORTAL_DB;Integrated Security=True")//ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString)
+		{
+			
 		}
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -176,5 +181,7 @@ namespace CareerCloud.EntityFrameworkDataAccess
 		public DbSet<SecurityRolePoco> SecurityRoles { get; set; }
 		public DbSet<SystemCountryCodePoco> SystemCountryCodes { get; set; }
 		public DbSet<SystemLanguageCodePoco> SystemLanguageCodes { get; set; }
+
+		public System.Data.Entity.DbSet<CareerCloud.Pocos.CompanyProfilePoco> CompanyProfilePocoes { get; set; }
 	}
 }

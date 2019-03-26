@@ -24,6 +24,7 @@ namespace CareerCloud.Pocos
 		public string Resume { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Last_Updated")]
 		public DateTime? LastUpdated { get; set; }
 

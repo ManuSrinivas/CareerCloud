@@ -25,6 +25,7 @@ namespace CareerCloud.Pocos
 		public string SourceIP { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Logon_Date")]
 		public DateTime LogonDate { get; set; }
 

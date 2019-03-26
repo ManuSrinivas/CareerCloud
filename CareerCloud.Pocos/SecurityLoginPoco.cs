@@ -24,14 +24,17 @@ namespace CareerCloud.Pocos
 		public string Password { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Created_Date")]
 		public DateTime Created { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Password_Update_Date")]
 		public DateTime? PasswordUpdate { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Agreement_Accepted_Date")]
 		public DateTime? AgreementAccepted { get; set; }
 

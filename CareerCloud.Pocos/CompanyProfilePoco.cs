@@ -18,6 +18,7 @@ namespace CareerCloud.Pocos
 		public Guid Id { get; set; }
 
 		[DataMember]
+		[DataType(DataType.Date)]
 		[Column("Registration_Date")]
 		public DateTime RegistrationDate { get; set; }
 
